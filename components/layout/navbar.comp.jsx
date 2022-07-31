@@ -1,11 +1,11 @@
 const NavBar = () => {
   return (
-    <header className="relative text-gray-400 bg-black ">
+    <header className="relative text-white bg-black font-[spantaran] text-lg">
       <div className="flex flex-col flex-wrap items-center p-5 mx-20 md:flex-row">
-        <nav className="flex flex-wrap items-center italic cursor-pointer lg:w-2/5 md:ml-auto">
-          <a className="mr-5 hover:text-yellow-400">HOME</a>
-          <a className="mr-5 hover:text-yellow-400">ABOUT US</a>
-          <a className="mr-5 hover:text-yellow-400">MARKETPLACE</a>
+        <nav className="flex flex-wrap items-center space-x-10 cursor-pointer lg:w-2/5 md:ml-auto">
+          <a className=" hover:text-yellow-400">Home</a>
+          <a className=" hover:text-yellow-400">About Us</a>
+          <a className=" hover:text-yellow-400">Marketplace</a>
         </nav>
         <a
           href="/"
